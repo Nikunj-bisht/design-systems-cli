@@ -51,6 +51,8 @@
     },
     {
       "path": "../../plugins/bundle"
+    },{
+      "path": "../../plugins/rui"
     }
   ]
 }

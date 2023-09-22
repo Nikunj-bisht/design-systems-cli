@@ -36,6 +36,8 @@
     "@design-systems/storybook": "link:../../plugins/storybook",
     "@design-systems/test": "link:../../plugins/test",
     "@design-systems/update": "link:../../plugins/update",
+    "@design-systems/rui": "link:../../plugins/rui",
+
     "import-cwd": "3.0.0",
     "tslib": "2.0.1"
   },

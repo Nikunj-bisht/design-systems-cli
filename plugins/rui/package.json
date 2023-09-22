@@ -1,0 +1,27 @@
+{
+  "name": "@design-systems/rui",
+  "version": "4.15.4",
+  "description": "The rui command for @design-systems-cli",
+  "main": "dist/index.js",
+  "author": "Adam Dierkens <adam@dierkens.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intuit/design-systems-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@design-systems/cli-utils": "link:../../packages/cli-utils",
+    "@design-systems/plugin": "link:../../packages/plugin",
+    "fs-extra": "11.1.1",
+    "path": "0.12.7"
+  }
+}

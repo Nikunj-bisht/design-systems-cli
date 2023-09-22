@@ -10,6 +10,8 @@ import CleanCommand from '@design-systems/clean/dist/command';
 import UpdateCommand from '@design-systems/update/dist/command';
 import ProofCommand from '@design-systems/proof/dist/command';
 import BundleCommand from '@design-systems/bundle/dist/command';
+import RuiCommand from '@design-systems/rui/dist/command';
+
 
 import { CliCommand } from '@design-systems/plugin';
 import { getPlugins, Configuration, requirePlugin } from './plugins';
@@ -28,7 +30,8 @@ const commands = [
   CreateCommand,
   UpdateCommand,
   ProofCommand,
-  BundleCommand
+  BundleCommand,
+  RuiCommand
 ];
 
 /** Get all the commands that @design-systems/cli ships with */

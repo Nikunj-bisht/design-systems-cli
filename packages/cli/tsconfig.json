@@ -1,6 +1,9 @@
 {
   "extends": "../../tsconfig.build.json",
-  "include": ["src/**/*.ts", "../../typings/**/*"],
+  "include": [
+    "src/**/*.ts",
+    "../../typings/**/*"
+  ],
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
@@ -15,6 +18,12 @@
     },
     {
       "path": "../core"
+    },
+    {
+      "path": "../../plugins/rui"
+    },
+    {
+      "path": "../../plugins/rui"
     }
   ]
 }
