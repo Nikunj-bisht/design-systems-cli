@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+import dp from '@babel/core';
+import lp from '@babel/core';
 
 const copy = require('copy-template-dir');
 const path = require('path');
@@ -9,10 +10,15 @@ const { titleCase } = require('title-case');
 const { app } = require('command-line-application');
 const inquirer = require('inquirer');
 
+// asdasd
 const { version } = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../lerna.json'), 'utf8')
 );
 const inDir = path.join(__dirname, './template-plugin');
+
+export function d() {
+ 
+}
 
 function updateCliTsConfig(name) {
   const configPath = path.join(__dirname, '../packages/cli/tsconfig.json');
